@@ -1,3 +1,5 @@
+<h1>GKE-IaC</h1>
+<p>This repository is to leverage GitOps and terraform to automate the deployment and management of resources on Google Cloud Platform.</p>
 <h1>Getting started</h1>
 <p>To make it easy for you to get started with GitLab, here’s a list of recommended next steps.</p>
 <h2>Add your files</h2>
