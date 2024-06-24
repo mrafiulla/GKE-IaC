@@ -51,7 +51,15 @@ plan:
 apply:
    stage: apply
    script:
-     - terraform apply "planfile"
+     - terraform apply "planfile" -auto-approve
    dependencies:
      - plan
    when: manual
+
+# Optional, applicable only when you want to destroy the environment
+destroy:
+   stage: destroy
+   script:
+      - terraform destroy -auto-approve 
+   when: manual
+
